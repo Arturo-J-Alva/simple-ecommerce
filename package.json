@@ -1,0 +1,28 @@
+{
+  "name": "simple-ecommerce",
+  "version": "1.0.0",
+  "description": "This is a short project about simple ecommerce to utp developers area.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev -p 3311",
+    "build": "next build",
+    "start": "next start -p 7970"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.20.0",
+    "next": "^9.5.4",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-redux": "^7.2.1",
+    "redux": "^4.0.5",
+    "redux-thunk": "^2.3.0"
+  },
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^3.0.0",
+    "postcss-preset-env": "^6.7.0",
+    "tailwindcss": "^1.8.13"
+  }
+}

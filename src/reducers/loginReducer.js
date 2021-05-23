@@ -6,7 +6,7 @@ const INIT_STATE = {
     loading: false
 };
 
-export default (state = INIT_STATE, action) => {
+const aux = (state = INIT_STATE, action) => {
     switch (action.type) {
 
         case SAVE_LOGIN:
@@ -16,3 +16,5 @@ export default (state = INIT_STATE, action) => {
         default: return { ...state };
     }
 }
+
+export default aux

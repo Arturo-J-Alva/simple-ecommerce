@@ -5,9 +5,9 @@ const ProductCard = ({ Producto, descripcion, photo, id, getDetail, P_millar, ad
     return (
         <div className="w-64 rounded-lg overflow-hidden shadow-xl bg-blue-200  m-2 flex flex-col">
             <div className="flex justify-center items-center h-64 bg-white">
-                <img src={photo} alt="producto-1" className="" />
+                <img src={photo} alt="producto-1" className="h-full" />
             </div>
-            <h2 className="text-center">{Producto}</h2>
+            <h2 className="text-center font-bold">{Producto}</h2>
             <p className="text-justify mx-2">
                 {descripcion}
             </p>
